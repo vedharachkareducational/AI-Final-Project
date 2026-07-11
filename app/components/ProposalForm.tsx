@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 const WEBHOOK_URL =
-  'https://vedcy.app.n8n.cloud/webhook-test/cce43d56-7454-4b94-badc-228352e0bd3d';
+  'https://vedcy.app.n8n.cloud/webhook/cce43d56-7454-4b94-badc-228352e0bd3d';
 
 type FormState = 'idle' | 'sending' | 'success' | 'error';
 
